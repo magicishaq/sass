@@ -11,10 +11,22 @@
     margin-left: 220px;
     min-height: 100vh;
     border-left: 2px solid #333;
+    min-width: 210px;
   }
 
   .sidebar {
     width: 200px;
     float: left;
+  }
+
+  &.right-nav{
+    >.main{
+      margin-right: 220px;
+      margin-left: 0px; 
+    }
+
+    >.sidebar{
+      float: right; 
+    }
   }
 }
