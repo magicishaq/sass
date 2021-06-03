@@ -2,4 +2,32 @@ body {
     h1 {
     color: #c46;
   }
+
+
+  .btn{
+    padding-right: 10px; 
+    padding-left: 10px; 
+    padding-top: 2px; 
+    padding-bottom: 2px;
+
+&.btn-primary{
+  border-radius: 2px;
+  border-style: solid; 
+  background-color: rgb(204,68,102);
+  color: rgb(255,255,255); 
+
 }
+
+&.btn-secondary{
+  background-color :
+    rgb(237,188,200);  
+}
+
+&.btn-primary:disabled, &.btn-secondary:disabled{
+  opacity: 0.5;
+}
+
+  }
+}
+
+
